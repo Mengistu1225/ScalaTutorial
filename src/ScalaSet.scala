@@ -18,10 +18,9 @@ object ScalaSet {
      else
        println("set2 is no contain  5")
 
-    val fruitSet: Set[String] = Set("apple", "banana", "orange")
-    val intersectionSet: Set[String] = fruitSet.intersect({"banana", "cherry"})
+    val subsets: Set[Set[Int]] = powerSet(Set(1, 2, 3))
+    println(subsets)
 
-     println(intersectionSet)
 
     
     
