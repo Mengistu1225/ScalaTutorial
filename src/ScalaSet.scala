@@ -12,7 +12,7 @@ object ScalaSet {
     println(set1.isEmpty)
     println(set1.isInstanceOf)*/
     
-    val set2:Set[Int]=Set(6,7,8,9,3,2,0)
+    /*val set2:Set[Int]=Set(6,7,8,9,3,2,0)
     if(set2.contains(3))
       println("  set2 is contain  5")
      else
@@ -20,7 +20,7 @@ object ScalaSet {
 
     val subsets: Set[Set[Int]] = powerSet(Set(1, 2, 3))
     println(subsets)
-
+*/
 
     
     
